@@ -39,7 +39,7 @@ function deepEqual(objA,objB){
 // Test the function
 console.log(
     deepEqual(
-        {name: "Ada"},
-        {name: "Ada"}
+        {a: 1, b: {c: 2}},
+        {a: 1, b: {c: 2}}
     )
 );
